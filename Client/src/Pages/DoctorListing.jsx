@@ -80,7 +80,7 @@ const DoctorListing = () => {
             consultationFee: 650,
             rating: 99,
             patientStories: 114,
-            image: "/api/placeholder/200/200"
+            image: "/images/Doc1.webp"
         },
         {
             name: "Dr. Aishna Sharma",
@@ -91,7 +91,7 @@ const DoctorListing = () => {
             consultationFee: 500,
             rating: 98,
             patientStories: 10,
-            image: "/api/placeholder/200/200"
+            image: "/images/Doc2.webp"
         }
     ];
 
