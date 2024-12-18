@@ -1,8 +1,10 @@
 import React from 'react'
-
+import DoctorListing from './DoctorListing'
 const Home = () => {
   return (
-    <div>Welcome to Home Page</div>
+    <div>
+      <DoctorListing />
+    </div>
   )
 }
 
