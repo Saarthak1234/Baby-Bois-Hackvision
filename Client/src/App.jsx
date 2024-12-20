@@ -1,17 +1,18 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar/Navbar.jsx";
+// import Navbar from "./Navbar/Navbar.jsx";
 import Login from "./Pages/Login.jsx";
 import Home from "./Pages/Home.jsx";
+import MainHome from './Components/MainHome.jsx'
 import Footer from "./Footer/Footer.jsx";
-
 function App() {
 
   return (
     <>
       <Router>
       <div>
-        <Navbar />
+        <MainHome />
+        {/* <Navbar /> */}
 
         <Routes>
 

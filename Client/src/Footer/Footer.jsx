@@ -1,8 +1,12 @@
 import React from 'react'
-
+import './Footer.css';
 const Footer = () => {
   return (
-    <div>This is Footer for the page</div>
+   <>
+    <footer class="footer">
+        <p>Copyright © Baby BOIS - All Rights Reserved | <a href="#">Privacy Policy</a></p>
+    </footer>
+   </>
   )
 }
 
