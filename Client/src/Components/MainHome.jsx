@@ -85,7 +85,7 @@ function MainHome() {
         <div className="header-container">
           <a href="/" className="logo">
             <img
-              src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/public/Logo-icon.webp"
               alt="DocPulse Logo"
               className="logo-image"
             />
